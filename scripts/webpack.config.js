@@ -19,23 +19,20 @@ module.exports = {
     rules: [
       {
         test: /\.coffee$/,
-        use: [ 'coffee-loader' ]
+        use: [ "coffee-loader" ]
       },
-      // {
-      //   test: /\.js$/,
-      //   exclude: /node_modules/,
-      //   use: [{
-      //     loader: "babel-loader"
-      //   }]
-      // },
       {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: "style-loader",
           use: "css-loader"
         })
-      }
+      },
     ]
+  },
+
+  resolve: {
+    extensions: [ ".mjs", ".js", ".json", ".coffee" ]
   },
 
   plugins: [

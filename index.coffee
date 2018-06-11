@@ -1,1 +1,1 @@
-import "./src/index.coffee";
+import "./src/index";
