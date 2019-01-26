@@ -1,7 +1,7 @@
 {
   "name": "polythene-mithril-coffeescript-setup",
   "description": "Polythene for Mithril with CoffeeScript setup example",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "mithril": "1.1.6",
-    "polythene-css": "1.5.0",
-    "polythene-mithril": "1.5.0"
+    "polythene-css": "1.5.1",
+    "polythene-mithril": "1.5.1"
   },
   "devDependencies": {
     "coffee-loader": "latest",
