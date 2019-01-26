@@ -20,10 +20,6 @@
     "polythene-mithril": "1.5.0"
   },
   "devDependencies": {
-    "babel-core": "6.26.3",
-    "babel-loader": "8.0.5",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-react": "6.24.1",
     "coffee-loader": "latest",
     "coffeescript": "latest",
     "compression-webpack-plugin": "2.0.0",
